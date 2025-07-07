@@ -12,4 +12,3 @@ result2 = subs(5, 2)
 
 print(f"result1 - {result1}")
 print(f"result2 - {result2}")
-
