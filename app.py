@@ -2,13 +2,16 @@ def add(a, b):
     return a + b
 
 
-def subs(a, b):
-    return a - b
+def sub(a, b):
+    return a-b
 
 
-result1 = add(4, 5)
-result2 = subs(5, 2)
+def mul(a, b):
+    return a*b
 
 
-print(f"result1 - {result1}")
-print(f"result2 - {result2}")
+if __name__ == "__main__":
+    result1 = add(4, 5)
+    result2 = sub(4, 1)
+
+    print(result1, result2)
